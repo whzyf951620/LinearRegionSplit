@@ -6,11 +6,11 @@ import torch.nn as nn
 
 
 
-ROOT = r'D:\experiments\LinearRegion\MNIST'
-train_images = 'train-images.idx3-ubyte'
-train_labels = 'train-labels.idx1-ubyte'
-test_images = 't10k-images.idx3-ubyte'
-test_labels = 't10k-labels.idx1-ubyte'
+ROOT = './MNIST'
+train_images = 'train-images-idx3-ubyte'
+train_labels = 'train-labels-idx1-ubyte'
+test_images = 't10k-images-idx3-ubyte'
+test_labels = 't10k-labels-idx1-ubyte'
 
 def load_images(training = True):
     if training:
